@@ -65,7 +65,7 @@
 #define X_OTHR_PIN                   E0_DIAG_PIN  // E0DET
 #define Y_OTHR_PIN                   E1_DIAG_PIN  // E1DET
 #define Z_OTHR_PIN                   E2_DIAG_PIN  // E2DET
-
+#define X_MAX_PIN		     PG15
 //
 // Z Probe (when not Z_MIN_PIN)
 //
@@ -168,6 +168,13 @@
 #define E3_ENABLE_PIN                       PE0
 #ifndef E3_CS_PIN
   #define E3_CS_PIN                         PD3
+#endif
+
+#define X2_STEP_PIN                         PE6   // MOTOR 7
+#define X2_DIR_PIN                          PA14
+#define X2_ENABLE_PIN                       PE0
+#ifndef X2_CS_PIN
+  #define X2_CS_PIN                         PD3
 #endif
 
 //

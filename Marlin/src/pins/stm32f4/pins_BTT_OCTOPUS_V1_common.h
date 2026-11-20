@@ -173,6 +173,13 @@
   #define E3_CS_PIN                         PD3
 #endif
 
+#define X2_STEP_PIN                         PE6   // MOTOR 7
+#define X2_DIR_PIN                          PA14
+#define X2_ENABLE_PIN                       PE0
+#ifndef X2_CS_PIN
+  #define X2_CS_PIN                         PD3
+#endif
+
 //
 // Temperature Sensors
 //
